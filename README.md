@@ -30,7 +30,7 @@ Style guidelines: PEP8, pycodestyle
 Version control: git
 ssh
 Installation
-Clone this repository: git clone "https://github.com/ralexrivero/AirBnB_clone_v3"
+Clone this repository: git clone "https://github.com/BILLKOLOS/AirBnB_clone_v3"
 Access AirBnb directory: cd AirBnB_clone
 Run hbnb(interactively): ./console and enter command
 Run hbnb(non-interactively): echo "<command>" | ./console.py

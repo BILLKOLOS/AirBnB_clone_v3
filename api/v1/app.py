@@ -22,9 +22,13 @@ def downtear(self):
 @app.errorhandler(404)
 def page_not_found(error):
     '''return render_template'''
-    return jsonify('error="Not found"), 404
+<<<<<<< HEAD
+    return jsonify (error="Not found"), 404
 
 
+=======
+    return jsonify(error="Not found"), 404
+>>>>>>> fcc5d7165d5dd28b3a96f74dc1ac0a75f190b027
 if __name__ == "__main__":
     host = getenv('HBNB_API_HOST')
     port = getenv('HBNB_API_PORT')
